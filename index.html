@@ -13,120 +13,36 @@
 
 <body>
     <header id="header">
-        <div id="logo">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/17-internet-network-technology/technology.png"
-                alt="" id="header-img" />
-            <h1>YetAnotherStartup</h1>
-        </div>
+        <img src="https://imgur.com/IAnFHyy.png" alt="" id="header-img">
         <nav id="nav-bar">
-            <ul>
-                <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#demonstration" class="nav-link">Demonstration</a></li>
-                <li><a href="#pricing" class="nav-link">Pricing</a></li>
-            </ul>
+            <a href="#trailer" class="nav-link ripple">Trailer</a>
+            <a href="#presentation" class="nav-link ripple">Presentation</a>
+            <a href="#newsletter" class="nav-link ripple">Newsletter</a>
         </nav>
     </header>
-    <section id="newsletter">
-        <h1>Great Qualities, Well made, etc ...</h1>
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <input type="email" name="" id="email" placeholder="Enter email....." />
-            <input type="text" id="submit" style="display: none" />
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <div id="container">
-        <section id="features" href="">
-            <div id="row">
-                <div id="icon">
-                    <i class="fa fa-classicpress" aria-hidden="true" ></i>
-                </div>
-                <div id="desc">
-                    <h2>Feature 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel
-                        recusandae facilis? Sint alias cumque, aliquid numquam similique
-                        consectetur sunt inventore corporis facere vel? Nulla aspernatur
-                        consequuntur ipsam consectetur qui?
-                    </p>
-                </div>
-            </div>
-            <div id="row">
-                <div id="icon">
-                    <i class="fa fa-book" aria-hidden="true"></i>
-                </div>
-                <div id="desc">
-                    <h2>Feature 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel
-                        recusandae facilis? Sint alias cumque, aliquid numquam similique
-                        consectetur sunt inventore corporis facere vel? Nulla aspernatur
-                        consequuntur ipsam consectetur qui?
-                    </p>
-                </div>
-            </div>
-            <div id="row">
-                <div id="icon">
-                    <i class="fa fa-desktop" aria-hidden="true"></i>
-                </div>
-                <div id="desc">
-                    <h2>Feature 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel
-                        recusandae facilis? Sint alias cumque, aliquid numquam similique
-                        consectetur sunt inventore corporis facere vel? Nulla aspernatur
-                        consequuntur ipsam consectetur qui?
-                    </p>
-                </div>
-            </div>
+    <div class="container">
+        <section id="trailer">
+            <h2>Check out our game trailer !</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
         </section>
-        <section id="demonstration">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?controls=0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen id="video"></iframe>
+        <section id="presentation">
+            <h2>Experience rich gameplay !</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora molestias numquam nulla, debitis sint ab perspiciatis laboriosam! Incidunt, deserunt nobis quaerat quis architecto hic eaque iusto aut nostrum amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sint reiciendis, adipisci, quia facilis dolorum magnam, debitis dicta rerum asperiores dolorem rem? Fugiat exercitationem assumenda voluptatem iure dolores, vel consequatur.
+            </p>
         </section>
-        <section id="pricing">
-            <div id="product">
-                <div id="product-name">Product 1</div>
-                <h2>500$</h2>
-                <ol>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ol>
-                <button type="submit">Select</button>
-            </div>
-            <div id="product">
-                <div id="product-name">Product 2</div>
-                <h2>1000$</h2>
-                <ol>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ol>
-                <button type="submit">Select</button>
-            </div>
-            <div id="product">
-                <div id="product-name">Product 3</div>
-                <h2>1500$</h2>
-                <ol>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ol>
-                <button type="submit">Select</button>
-            </div>
+        <section id="newsletter">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <h2>Subscribe to our newsletter !</h2>
+                <input type="email" name="email" id="email" placeholder="Stay tuned for future updates...">
+                <input type="submit" value="Submit" id="submit">
+            </form>
         </section>
-        <footer>
-            <ul>
-                <li>Terms</li>
-                <li>Privacy</li>
-                <li>Contact</li>
-            </ul>
-            <span>Copyright 2052, YetAnotherStartup</span>
-        </footer>
     </div>
+    <footer>
+        <p>Copyright stuff: Am just trying to learn, don't sue me please ©</p>
+        <p>CSS ripple effect taken from <a href="https://css-tricks.com/how-to-recreate-the-ripple-effect-of-material-design-buttons/">CSS-Tricks</a></p>
+    </footer>
 </body>
 
 </html>
